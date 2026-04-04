@@ -1,0 +1,19 @@
+{
+  "name": "test_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node course-pdf-automation.js",
+    "merge": "node merge-course-pdfs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.59.1"
+  }
+}
