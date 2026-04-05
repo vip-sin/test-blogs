@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node course-pdf-automation.js",
-    "merge": "node merge-course-pdfs.js"
+    "start": "node --env-file=.env course-pdf-automation.js",
+    "merge": "node merge-course-pdfs.js --env-file=.env"
   },
   "keywords": [],
   "author": "",
